@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f1f1;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+.avatar {
+  height: 240px;
+  width: 300px;
+  border-radius: 15px;
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+.info-text {
+  margin-left: 10px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.card {
+  padding: 15px 20px;
+  border: 3px solid black;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+hr {
+  width: 100%;
+}
+p {
+  margin: 0;
+}
+.bg-schedule td:nth-child(1) {
+  padding-left: 140px;
+}
+.bg-schedule td:nth-child(2) {
+  padding-right: 120px;
+}
+.bg-courses td:nth-child(1) {
+  padding-left: 70px;
+}
+.bg-courses td:nth-child(2) {
+  padding-left: 30px;
+}
+.bg-courses th:nth-child(2) {
+  padding-left: 50px;
+}
+.bg-contacts td:nth-child(1) {
+  padding-left: 200px;
+  margin-left: 10px;
+ }
+.bg-contacts td:nth-child(2) {
+  padding-right: 180px;
+  margin-right: 0px;
+}
+
+ 
